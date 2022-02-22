@@ -1,0 +1,54 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+/* ------- 1.2 getElementsByClassName ---------- */
+.style {
+    display: inline-block;
+    border-radius: 5px;
+    background: #666;
+    color: white;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.example {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* ------- 2.3 getElementsByTagName ---------- */
+#style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.color5{
+    background-color: lime;
+}
+article{
+    padding: 10px 5px;
+    background-color: #666;
+}
+article:hover{
+    background-color: #333;
+}
+.unset{
+    color: transparent;
+}
+a{
+    text-decoration: unset;
+    color: #fff;
+
+}
+/* ------- 2.4 DOM Background Colors ---------- */
+    padding: 5px;
+    display: inline-block;
+    background: #999;
+    border-radius: 5px;
+}
+input {
+    background: #333;
+    color: white;
+}
